@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("abdallahwagih/retina-blood-vessel")
+
+print("Path to dataset files:", path)
